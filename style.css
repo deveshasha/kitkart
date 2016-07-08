@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #D6D6D6;
+}
+
+p {
+	font-size: 1.3em;
+	margin-bottom: 15px;
+}
+.container{
+	width: 100%;
+	height: auto;
+	font-family: 'Montserrat', sans-serif;
+}
+#logo img{
+	margin-left: 5%;
+	float: left;
+}
+#login a{
+	float: right;
+	padding:25px;
+	text-decoration: none;
+	color: black;
+	
+}
+#login a:hover{
+	color: white;
+}
+#nav{
+	text-align: center;
+}
+#nav ul{
+	display: inline-block;
+	list-style: none;
+}
+#nav li{
+	display: inline;
+}
+#nav a{
+	font-size: 16px;
+	color: black;
+	float: left;
+	text-decoration: none;
+	padding: 12px 75px;
+	background-color: #939393;
+
+}
+#nav li:first-child a{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#nav li:last-child a{
+	border-top-right-radius:20px;
+	border-bottom-right-radius: 20px;		
+}
+
+#nav a:hover{
+	color:white;
+	background-color:#181818;
+	background: linear-gradient(#313131,#696969);
+}
+#page-wrap {
+	width: 660px;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
